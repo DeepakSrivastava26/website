@@ -1,0 +1,23 @@
+{
+  "publications": [
+    {
+      "title": "Vision Guided Georeferencing of UAV Sea Surface Imagery",
+      "authors": [
+        "Deepak Srivastava",
+        "Shivasurya",
+        "Vishal Sriram",
+        "Rajagopalan N Ambasamduram",
+        "Manikandan Mathur"
+      ],
+      "venue": "Under Review",
+      "thumbnail": "drone.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "#"
+
+      }
+    }
+
+  ]
+}
