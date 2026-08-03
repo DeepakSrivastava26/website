@@ -459,7 +459,7 @@ strong {
 
 
 
-.research-tags {
+/* .research-tags {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -470,4 +470,20 @@ strong {
     content: " • ";
     margin: 0 8px;
     color: #666;
+} */
+
+
+
+.research-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.research-tags span {
+    padding: 4px 10px;
+    border: 1px solid #ddd;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    white-space: nowrap;
 }
