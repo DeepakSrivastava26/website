@@ -453,3 +453,21 @@ strong {
     transform: none !important;
   }
 }
+
+
+
+
+
+
+.research-tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0;
+}
+
+.research-tags span:not(:last-child)::after {
+    content: " • ";
+    margin: 0 8px;
+    color: #666;
+}
