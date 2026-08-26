@@ -487,3 +487,33 @@ strong {
     font-size: 0.9rem;
     white-space: nowrap;
 }
+
+
+
+
+
+
+
+
+
+.education-item {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.education-year {
+    width: 120px;
+    flex-shrink: 0;
+    font-weight: 500;
+}
+
+.education-details h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.education-details p {
+    margin: 0;
+    line-height: 1.6;
+}
