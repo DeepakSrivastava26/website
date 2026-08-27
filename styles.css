@@ -517,3 +517,9 @@ strong {
     margin: 0;
     line-height: 1.6;
 }
+
+
+.date {
+  color: #0077b6;
+  font-weight: 600;
+}
