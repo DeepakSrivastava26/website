@@ -519,7 +519,6 @@ strong {
 }
 
 
-.date {
-  color: #0077b6;
-  font-weight: 600;
+.education-item .date {
+    color: #0077b6 !important;
 }
