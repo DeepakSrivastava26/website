@@ -520,5 +520,6 @@ strong {
 
 
 .education-item .date {
-    color: #0077b6 !important;
+    color: var(--accent-color);
+    font-weight: 600;
 }
