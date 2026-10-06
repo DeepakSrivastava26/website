@@ -1,7 +1,7 @@
 {
   "publications": [
     {
-      "title": "Vision Guided Georeferencing of UAV Sea Surface Imagery",
+      "title": "Vision-guided Georeferencing of UAV Sea Surface Imagery",
       "authors": [
         "Deepak Srivastava",
         "Shivasurya",
@@ -13,8 +13,9 @@
       "thumbnail": "drone.jpg",
       "selected": 1,
       "award": "",
-
+      "links": {
+         "pdf": "#"
+      }
     }
-
   ]
 }
