@@ -183,11 +183,12 @@ section {
 } */
 .pub-thumbnail {
     width: 125px;
-    height: auto;
+    height: fit-content;
     flex-shrink: 0;
     overflow: hidden;
     border: 1px solid var(--border-color);
     border-radius: 6px;
+    align-self: flex-start;
 }
 
 .pub-thumbnail img {
@@ -195,9 +196,6 @@ section {
     width: 100%;
     height: auto;
     object-fit: contain;
-}
-.pub-thumbnail:hover img {
-  transform: scale(1.08);
 }
 
 .pub-content {
