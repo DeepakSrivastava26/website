@@ -163,7 +163,7 @@ section {
   gap: 1.25rem;
 }
 
-.pub-thumbnail {
+/* .pub-thumbnail {
   width: 125px;
   height: 125px;
   flex-shrink: 0;
@@ -180,8 +180,22 @@ section {
   height: 100%;
   object-fit: cover;
   transition: transform var(--transition-time) ease;
+} */
+.pub-thumbnail {
+    width: 125px;
+    height: auto;
+    flex-shrink: 0;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
 }
 
+.pub-thumbnail img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
 .pub-thumbnail:hover img {
   transform: scale(1.08);
 }
